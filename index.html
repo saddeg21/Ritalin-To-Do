@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar&display=swap" rel="stylesheet">
+
+        <title>Ritalin</title>
+
+        <link rel="stylesheet" href="scss/style.css">
+
+    </head>
+    <body>
+        <header class="header" id="header">
+            <div class="overlay hide got-fade fade-out"></div>
+
+            <nav class="header__nav flex flex-jc-sb flex-ai-c">
+                <div class="header__logo">
+                    <img src="images/Ritalin-2.png">
+                </div>
+
+                <a href="#" class="header__toggle hide-for-desktop" id="button-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+                <div class="header__links hide-for-mobile">
+                    <a href="#">Anasayfa</a>
+                    <a href="#">Ben Kimim ?</a>
+                    <a href="#">To-Do List Nedir ?</a>
+                </div>
+
+                
+                    <a href="#" class="button hide-for-mobile">SKYLAB</a>
+
+            </nav>
+            <div class="header__menu hide-for-deskop got-fade fade-out">
+                <a href="#">Anasayfa</a>
+                <a href="#">Ben Kimim?</a>
+                <a href="#">To-Do List Nedir ?</a>
+            </div>
+
+        </header>
+<div class="task">
+    <div class="task__intro">
+       <h1>SKYLAB TO-DO LIST</h1>
+           <p>Ekle butonuna basarak listenize bir görev ekleyebilirsiniz.</p>
+    </div>
+</div>
+
+<section class="grid">
+<section class="grid__column2">
+        <section class="task">
+            <div class="task__input">
+                <input type="text" name="task-name" id="task-name" placeholder="Bir görev ekleyin..." >
+                <input type="submit" id="task-button" value="EKLE"/></input>
+            </div>
+            <section class="list">
+                <div class="list__elements">
+                </div>
+            </section>
+
+        </section>
+</section>
+<section class="grid__column1">
+    <div class="task__intro">
+        <h1>Tamamlanan Görevler<img src="images/tick2.svg"></h1>
+    </div>
+
+    <section class="list">
+        <div class="list__elements2">
+        </div>
+    </section>
+
+</section>
+</section>
+
+        
+        <script src="js/navbar.js"></script>
+        <script src="js/script.js"></script>
+    </body>
